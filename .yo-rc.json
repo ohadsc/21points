@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "21points",
+    "packageName": "com.osc.health",
+    "packageFolder": "com/osc/health",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "69bed6bb9c74d3c1cd31e82a2df021758a9566e3",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
